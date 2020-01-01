@@ -1,152 +1,79 @@
 [
-  {
-    "key": "homepage_articles",
-    "value": "",
-    "readonly": true
-  },
-  {
-    "key": "homepage_instructor_comments",
-    "value": "",
-    "readonly": true
-  },
+  { "key": "homepage_articles", "value": "", "readonly": true },
+  { "key": "homepage_instructor_comments", "value": "", "readonly": true },
   {
     "key": "contact_address",
-    "value": "ستارخان, کوچه لاله"
+    "value": "ستارخان, کوچه لاله",
+    "readonly": false
   },
-  {
-    "key": "contact_email",
-    "value": "test@gmail.com"
-  },
-  {
-    "key": "contact_number",
-    "value": "0212131232"
-  },
-  {
-    "key": "homepage_header_video",
-    "value": ""
-  },
-  {
-    "key": "homepage_comments_bg_image",
-    "value": ""
-  },
+  { "key": "contact_email", "value": "test@gmail.com", "readonly": false },
+  { "key": "contact_number", "value": "0212131232", "readonly": false },
+  { "key": "homepage_header_video", "value": "test", "readonly": false },
+  { "key": "homepage_comments_bg_image", "value": "test 2", "readonly": false },
   {
     "key": "homepage_services_course_image_url",
-    "value": ""
+    "value": "",
+    "readonly": false
   },
   {
     "key": "homepage_services_fields_image_url",
-    "value": ""
+    "value": "",
+    "readonly": false
   },
-  {
-    "key": "homepage_services_first_name",
-    "value": ""
-  },
-  {
-    "key": "homepage_services_first_link",
-    "value": ""
-  },
-  {
-    "key": "homepage_services_second_name",
-    "value": ""
-  },
-  {
-    "key": "homepage_services_second_link",
-    "value": ""
-  },
-  {
-    "key": "homepage_services_third_name",
-    "value": ""
-  },
-  {
-    "key": "homepage_services_third_link",
-    "value": ""
-  },
-  {
-    "key": "homepage_services_fourth_name",
-    "value": ""
-  },
-  {
-    "key": "homepage_services_fourth_link",
-    "value": ""
-  },
-  {
-    "key": "homepage_tour_title",
-    "value": ""
-  },
-  {
-    "key": "homepage_tour_link_name",
-    "value": ""
-  },
-  {
-    "key": "homepage_tour_link_url",
-    "value": ""
-  },
-  {
-    "key": "homepage_tour_bg_image",
-    "value": ""
-  },
-  {
-    "key": "homepage_teacher_title",
-    "value": ""
-  },
-  {
-    "key": "homepage_teacher_desc",
-    "value": ""
-  },
-  {
-    "key": "homepage_teacher_image",
-    "value": ""
-  },
-  {
-    "key": "homepage_introduction_title",
-    "value": ""
-  },
-  {
-    "key": "homepage_introduction_sub_title",
-    "value": ""
-  },
-  {
-    "key": "homepage_introduction_video",
-    "value": ""
-  },
+  { "key": "homepage_services_first_name", "value": "", "readonly": false },
+  { "key": "homepage_services_first_link", "value": "", "readonly": false },
+  { "key": "homepage_services_second_name", "value": "", "readonly": false },
+  { "key": "homepage_services_second_link", "value": "", "readonly": false },
+  { "key": "homepage_services_third_name", "value": "", "readonly": false },
+  { "key": "homepage_services_third_link", "value": "", "readonly": false },
+  { "key": "homepage_services_fourth_name", "value": "", "readonly": false },
+  { "key": "homepage_services_fourth_link", "value": "", "readonly": false },
+  { "key": "homepage_tour_link_name", "value": "", "readonly": false },
+  { "key": "homepage_tour_title", "value": "", "readonly": false },
+  { "key": "homepage_tour_link_url", "value": "", "readonly": false },
+  { "key": "homepage_tour_bg_image", "value": "", "readonly": false },
+  { "key": "homepage_teacher_title", "value": "", "readonly": false },
+  { "key": "homepage_teacher_desc", "value": "", "readonly": false },
+  { "key": "homepage_teacher_image", "value": "", "readonly": false },
+  { "key": "homepage_introduction_title", "value": "", "readonly": false },
+  { "key": "homepage_introduction_sub_title", "value": "", "readonly": false },
+  { "key": "homepage_introduction_video", "value": "", "readonly": false },
   {
     "key": "homepage_introduction_first_image",
-    "value": ""
+    "value": "",
+    "readonly": false
   },
   {
     "key": "homepage_introduction_first_title",
-    "value": ""
+    "value": "",
+    "readonly": false
   },
-  {
-    "key": "homepage_introduction_first_desc",
-    "value": ""
-  },
+  { "key": "homepage_introduction_first_desc", "value": "", "readonly": false },
   {
     "key": "homepage_introduction_second_image",
-    "value": ""
+    "value": "",
+    "readonly": false
   },
   {
     "key": "homepage_introduction_second_title",
-    "value": ""
+    "value": "",
+    "readonly": false
   },
   {
     "key": "homepage_introduction_second_desc",
-    "value": ""
+    "value": "",
+    "readonly": false
   },
   {
     "key": "homepage_introduction_third_image",
-    "value": ""
+    "value": "",
+    "readonly": false
   },
   {
     "key": "homepage_introduction_third_title",
-    "value": ""
+    "value": "",
+    "readonly": false
   },
-  {
-    "key": "homepage_introduction_third_desc",
-    "value": ""
-  },
-  {
-    "key": "homepage_footer_about",
-    "value": ""
-  }
+  { "key": "homepage_introduction_third_desc", "value": "", "readonly": false },
+  { "key": "homepage_footer_about", "value": "", "readonly": false }
 ]

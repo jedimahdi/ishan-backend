@@ -1,5 +1,7 @@
 const httpStatus = require('http-status');
 const service = require('./settings.service');
+const fs = require('fs');
+const path = require('path');
 const Setting = require('./settings.model');
 const { handler: errorHandler } = require('../../middlewares/error');
 
@@ -32,6 +34,28 @@ exports.create = async (req, res, next) => {
 exports.update = async (req, res, next) => {
   try {
     const response = await service.update(req.body);
+
+    const settings = await service.list();
+    const fields = ['key', 'value', 'readonly'];
+
+    let transformedSettings = [];
+
+    for (let setting of settings) {
+      const transformed = {};
+      fields.forEach(field => {
+        transformed[field] = setting[field];
+      });
+      transformedSettings.push(transformed);
+    }
+    fs.writeFile(
+      path.join(__dirname, '../../../seed/settings.json'),
+      JSON.stringify(transformedSettings),
+      err => {
+        if (err) throw err;
+        console.log('The file has been saved!');
+      }
+    );
+
     return res.json(response);
   } catch (error) {
     return next(error);
